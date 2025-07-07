@@ -1,0 +1,10 @@
+{
+    "name": "password-manager",
+    "version": "1.0.0",
+    "description": "A secure cross-platform password manager",
+    "author": "",
+    "license": "MIT",
+    "scripts": {
+        "install-assets": "mkdir -p assets && cp Copilot_20250707_021918.png assets/logo.png"
+    }
+}

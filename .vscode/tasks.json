@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Python: Run Password Manager",
+            "type": "shell",
+            "command": "c:/Users/ntoam/Downloads/PassM/.venv/Scripts/python.exe",
+            "args": [
+                "password_manager.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": [
+                "$python"
+            ]
+        }
+    ]
+}

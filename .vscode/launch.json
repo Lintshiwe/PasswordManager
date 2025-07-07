@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Password Manager",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "password_manager.py",
+            "console": "integratedTerminal",
+            "python": "c:/Users/ntoam/Downloads/PassM/.venv/Scripts/python.exe",
+            "justMyCode": true
+        }
+    ]
+}

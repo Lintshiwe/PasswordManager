@@ -1,0 +1,28 @@
+# Password database
+.password_manager.db
+*.db
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local configuration
+.env
+*.local
+
+# System files
+.DS_Store
+Thumbs.db

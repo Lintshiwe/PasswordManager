@@ -1,0 +1,9 @@
+cryptography>=41.0.1
+pyperclip>=1.8.2
+keyboard>=0.13.5
+pywin32>=306; platform_system == "Windows"
+# Windows-specific requirements
+pywin32>=306
+keyring>=24.2.0
+browser-cookie3>=0.19.1
+pycryptodome>=3.19.0
