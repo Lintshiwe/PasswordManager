@@ -121,9 +121,18 @@ This project is licensed under the **MIT License**.
 
 ---
 
-If you’re ready, I can now:
-- 🎨 Generate a matching **logo**
-- 🖼 Help you create a walkthrough **demo GIF**
-- 💬 Draft short descriptive blurbs for sharing it on platforms like LinkedIn or Dev.to
+Designed with 💚 by [@Lintshiwe](https://github.com/Lintshiwe)  
+*Sleek. Secure. Yours.*
 
-Let’s style this beauty into a true portfolio centerpiece. Want me to start with the logo next?
+---
+
+I’m also giving this project the glow-up it deserves ✨  
+Here’s what’s coming next:
+
+- 🎨 A custom **logo** that reflects the aesthetic and purpose of PasswordManager  
+- 🎞️ A clean **demo walkthrough** so you can see it in action—style, features, and flow  
+- 💬 A set of sharable descriptions and visuals for platforms like LinkedIn, Dev.to, and X
+
+All crafted with care to make this more than just a tool—it’s a showcase.  
+And you’re looking at its first vault guardian 🔐
+
