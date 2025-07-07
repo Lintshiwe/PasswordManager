@@ -1,97 +1,129 @@
-\# Windows Password Manager
 
-A secure password manager application for Windows with encryption and modern GUI.
+---
 
-## Features
+### 🔐 `README.md` — PasswordManager (Windows)
 
-- Secure encryption using Fernet (symmetric encryption)
-- Master password protection
-- SQLite database for password storage
-- Modern and beautiful GUI with custom styling
-- Password generator
-- Auto-logout for security
-- Copy passwords to clipboard
-- View and edit password entries
-- Password visibility toggle
-- Notes support for each entry
-- Automatic credential detection and saving from web browsers
-- Smart update detection for existing credentials
-- Startup integration for Windows and Linux
-- Settings management with customizable options
-- Modern Windows 10/11 interface
-- Browser password import from:
-  - Google Chrome
-  - Mozilla Firefox
-  - Microsoft Edge
-- Real-time credential monitoring:
-  - Automatically detects when you enter credentials in browsers
-  - Smart duplicate detection
-  - One-click saving of new passwords
-  - Supports all major browsers
+```markdown
+# 🔐 PasswordManager
 
-## Requirements
+*A modern, local-first password manager for Windows with full encryption, smart browser detection, and a sleek GUI.*
+
+![Logo](assets/logo.png) <!-- Swap in your actual logo path -->
+
+![Python](https://img.shields.io/badge/Python-3.6+-blue?logo=python)
+![Tkinter](https://img.shields.io/badge/Tkinter-Stylish%20GUI-brightgreen)
+![Encryption](https://img.shields.io/badge/Security-Fernet%20AES256-critical)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+---
+
+## ✨ Features
+
+- 🔒 Secure encryption with **Fernet** (AES 128-bit symmetric)
+- 🔐 Master password protection with **PBKDF2** (SHA256)
+- 🗂️ Encrypted **SQLite** database for credentials
+- 🧠 **Real-time browser monitoring** (Chrome, Firefox, Edge)
+- 🔄 Smart update detection for existing entries
+- 📥 One-click saving of newly detected credentials
+- 📝 Support for notes, editable tags, and visibility toggle
+- 🎛️ Stylish GUI built with `tkinter` and custom themes
+- 🌗 **Dark/light mode** support
+- 🔏 Auto-logout after inactivity
+- 📋 Copy passwords to clipboard
+- 🔧 **Settings dashboard** with:
+  - Startup toggle (Windows/Linux)
+  - Auto-logout timer config
+  - Monitoring options
+- 🖥️ Seamless startup with system tray integration (Windows)
+
+---
+
+## 🛠️ Requirements
 
 - Windows 10 or later
 - Python 3.6+
-- Required packages:
-  - cryptography (for secure encryption)
-  - tkinter (for the GUI interface)
-  - pywin32 (for Windows integration)
-  - pyperclip (clipboard management)
-  - keyboard (input monitoring)
-  - browser-cookie3 (browser integration)
-  - pycryptodome (browser password decryption)
-
-## Installation
-
-1. Clone or download this repository
-2. Install required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-Run the application:
+- Install dependencies:
 
 ```bash
+pip install -r requirements.txt
+```
+
+**Dependencies**:
+- `cryptography` – encryption
+- `tkinter` – UI
+- `pywin32` – Windows integration
+- `pyperclip` – clipboard
+- `keyboard` – input monitoring
+- `browser-cookie3` – browser integration
+- `pycryptodome` – browser password decryption
+
+---
+
+## 🚀 Installation & Usage
+
+```bash
+git clone https://github.com/Lintshiwe/PasswordManager.git
+cd PasswordManager
+pip install -r requirements.txt
 python password_manager.py
 ```
 
-On first run, you'll be prompted to create a master password. This password will be used to encrypt and decrypt your stored passwords.
+➡️ On your first run, you’ll create a **master password** to secure your vault.
 
-### Settings
+---
 
-Access settings through the main interface:
+## 🧪 How It Works
 
-- Enable/disable startup with system
-- Configure auto-logout timer
-- Customize monitoring options
+| Layer          | Stack                                       |
+|----------------|---------------------------------------------|
+| Language       | Python 3.6+                                 |
+| GUI            | Tkinter with custom styling                 |
+| Data Storage   | SQLite3                                     |
+| Encryption     | Fernet + PBKDF2 via `cryptography`          |
+| OS Integration | `pywin32` (Windows)                         |
+| Monitoring     | `keyboard`, `browser-cookie3`, `pycryptodome` |
+| Clipboard      | `pyperclip`                                 |
+| Threading      | For auto-logout functionality               |
 
-### Startup Integration
+---
 
-The password manager can be configured to start automatically with Windows:
+## 📸 Preview
 
-- Creates a startup entry in the Windows Startup folder
-- Can be enabled/disabled in Settings
-- Starts minimized to system tray
+> _“Breathtakingly efficient. Delightfully local.”_
 
-## Security Features
+![Demo GIF](assets/demo.gif) <!-- Replace with your GIF -->
 
-- All passwords are encrypted using Fernet symmetric encryption
-- Master password is hashed using PBKDF2 with SHA256
-- Auto-logout after 10 minutes of inactivity
-- Passwords are never stored in plain text
+---
 
-## Development
+## 🧰 Folder Structure
 
-The application is built using:
+```
+📁 PasswordManager/
+├── assets/               # Logos and walkthrough media
+├── password_manager.py   # Main GUI script
+├── startup.py            # Startup integration script
+├── requirements.txt
+└── README.md
+```
 
-- tkinter for the GUI
-- cryptography for secure encryption
-- sqlite3 for data storage
-- threading for auto-logout functionality
+---
 
-## License
+## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
+
+---
+
+> Designed with 💚 by [@Lintshiwe](https://github.com/Lintshiwe)  
+> *Sleek. Secure. Yours.*  
+```
+
+---
+
+If you’re ready, I can now:
+- 🎨 Generate a matching **logo**
+- 🖼 Help you create a walkthrough **demo GIF**
+- 💬 Draft short descriptive blurbs for sharing it on platforms like LinkedIn or Dev.to
+
+Let’s style this beauty into a true portfolio centerpiece. Want me to start with the logo next?
